@@ -35,10 +35,9 @@
   color: #ffffff;
   background-color: rgb(255, 176, 170);
   outline: none;
-}
-
-.deleteButton:active,
-.deleteButton:hover {
-  color: #000000;
-  background-color: rgb(255, 73, 73);
+  &:active,
+  &:hover {
+    color: #000000;
+    background-color: rgb(255, 73, 73);
+  }
 }
